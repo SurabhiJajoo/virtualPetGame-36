@@ -4,9 +4,9 @@ var fedTime, lastFed, feed, addFood, foodObj;
 var milk
 
 function preload(){
-    dogImg = loadImage("images/Dog.png");
-    dogImg2 = loadImage("images/happydog.png");
-    milkImg = loadImage("images/Milk.png")
+    dogImg = loadImage("Dog.png");
+    dogImg2 = loadImage("happydog.png");
+    milkImg = loadImage("Milk.png")
 }
 function setup() {
   createCanvas(1000, 500);
